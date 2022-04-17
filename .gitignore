@@ -5,6 +5,7 @@ __pycache__/
 
 *.DS_Store
 testing/
+Clip Demo Video/
 
 # C extensions
 *.so
