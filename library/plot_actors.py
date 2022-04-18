@@ -51,7 +51,7 @@ class ClippingBox(vtk.vtkBoxWidget):
         self.plotActor.clipped = self.plotter.add_mesh(new_clipped,
                                                        smooth_shading=True,
                                                         show_scalar_bar=False,
-                                                        reset_camera=False)
+                                                        reset_camera=True)
     
     def reset_mesh_clip(self):
         self.bounds = self.plotActor.original.bounds
